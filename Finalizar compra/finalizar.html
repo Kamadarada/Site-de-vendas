@@ -31,8 +31,8 @@
             <img  class="bandeira" src="bandeiras/Bandeirascartao.png" alt="bandeirascartao">
             
             <div class="inf-pagamento">
-                <input type="text" class="name" placeholder="Nome "/required>
-                <input type="text" class="last-name" placeholder="Ultimo nome"/required>
+                <input type="text" class="name" placeholder="Nome "required />
+                <input type="text" class="last-name" placeholder="Ultimo nome" required />
                 <input type="number" class="num-cartao" placeholder="Numero do cartao"/required>
                 <input type="number" class="CVC" placeholder="CVC"/required>
                 <input type="text" class="validade" placeholder="MM/AA"/required>
@@ -60,29 +60,6 @@
         </form>
     </div>
 
-
-    <script>
-
-
-        const formcartao = document.getElementById('cartao')
-        const formpix = document.getElementById('pix')
-
-        formcartao.style.display = null
-        formpix.style.display = 'none'
-
-        function activeTab(tabname){
-            if(tabname==='cartao'){
-                formpix.style.display = 'none'
-                formcartao.style.display = null
-            }
-            else if(tabname==='pix'){
-                formcartao.style.display = 'none'
-                formpix.style.display = null
-            }
-        }
-
-
-    </script>
 
     <script src="finalizar.js">
 

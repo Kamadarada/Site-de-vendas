@@ -18,4 +18,22 @@ document.querySelector('#card_pix')
        
     })
 
+
+    const formcartao = document.getElementById('cartao')
+    const formpix = document.getElementById('pix')
+
+    formcartao.style.display = null
+    formpix.style.display = 'none'
+
+    function activeTab(tabname){
+        if(tabname==='cartao'){
+            formpix.style.display = 'none'
+            formcartao.style.display = null
+        }
+        else if(tabname==='pix'){
+            formcartao.style.display = 'none'
+            formpix.style.display = null
+        }
+    }
+
     
