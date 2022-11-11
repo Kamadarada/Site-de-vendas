@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Helvetica;
+}
+
+body {
+    font-size: 100%;
+    background-color: whitesmoke;
+    font-family: 'Freehand', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.cabecalho {
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #2F4F4F;
+        border-bottom: 0.4px solid #1b9292;
+        
+        
+}
+
+.cabecalho a{
+    color: black;
+}
+
+.cabecalho a:hover{
+    color: whitesmoke;
+    cursor: pointer;
+   
+    
+}
+
+
+.cabecalho-menu {
+   display: flex;
+   gap: 100px;
+   
+}
+
+.cabecalho-menu-item {
+
+    font-family: Helvetica;
+    color: #2F4F4F;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+
+.cabecalho-imagem{
+    width: 145px;
+    height: 135px;
+}
+
+
+
+.titulo-oferta{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+    color: #2F4F4F;
+    border: 0.4px solid #2F4F4F;
+    padding: 25px;
+
+}
+
+
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produtos{
+    padding: 5%;
+    margin-top: 0px;
+}
+
+
+
+.titulo-produto{
+    text-align: center;
+    font-size: 25px;
+}
+
+.titulo-produto:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.valor-oferta{
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2F4F4F;
+    border-top: 0.4px solid #1b9292;
+    padding: 32px;
+    margin-top: 40px;
+
+}
+
+
+

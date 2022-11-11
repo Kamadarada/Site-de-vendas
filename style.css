@@ -1,43 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: Helvetica;
 }
 
 body {
     font-size: 100%;
-    background: linear-gradient(45deg, #006400, #3CB371, #66CDAA, #F8F8FF);
+    background-color: whitesmoke;
+    font-family: 'Freehand', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
+
+
 .cabecalho {
+        
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
+        background-color: #2F4F4F;
+        border-bottom: 0.4px solid #1b9292;
         
+}
+
+.cabecalho a{
+    color: black;
+}
+
+.cabecalho a:hover{
+    color: whitesmoke;
+    cursor: pointer;
+   
+    
 }
 
 
 .cabecalho-menu {
    display: flex;
    gap: 100px;
-
+   
 }
 
 .cabecalho-menu-item {
 
-    font-family: 'Sarala', sans-serif;
-    color: gray;
+    font-family: Helvetica;
+    color: #2F4F4F;
     font-weight: 400;
     font-size: 18px;
 
 }
 
+.cabecalho-imagem{
+    width: 145px;
+    height: 135px;
+}
+
+
+
 .conteudo {
-    border-top: 0.4px solid #F8F8FF;
+    margin-top: 40px;
+    border-top: 0.4px solid d#2F4F4F;
     margin-bottom: 48px;
 }
 
@@ -55,79 +82,120 @@ body {
 
 }
 
+.conteudo-promocao h1{
+    font-family: Helvetica;
+}
+
 .titulo-promo {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 64px;
-    color: #F8F8FF;
+    color: #2F4F4F;
 }
 
-.subtitulo-promo {
+/*.subtitulo-promo {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: rgb(228, 228, 228);
-}
+    color: #2F4F4F;
+}*/
 
 .botaoN{
-    background-color: aquamarine;
+    background-color: #2F4F4F;
     width: 180px;
     height: 60px;
     border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    border-radius: 15px;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: black;
+    cursor: pointer;
+    
+    
 }
 .botaoN:hover {
-    background-color: rgba(147, 185, 155, 0.53);
+    background:rgba(0, 0, 0, 0);
+    color: #2F4F4F;
+    box-shadow: inset 0 0 0 3px #2F4F4F;
+    transition: .3ms;
+    
+}
 
+.botaoN:hover:after{
+    background-color:#2F4F4F ;
+    transition: .3ms;
+    
 }
 
 .logodivu {
-    height: 400px;
+    height: 350px;
     margin-top: 50px;
+    
 }
+
+
 
 .conteudo-secundario {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24px;
+    gap: 14px;
     margin-top: 48px;
+    
+
 }
 
 .conteudo-secundario-titulo {
-    border-top: 0.4px solid #F8F8FF;
+    margin-top: 70px;
+    border-top: 0.4px solid #2F4F4F;
     padding-top: 48px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 28px;
-    color: rgb(228, 228, 228);
+    color: #2F4F4F;
     margin-bottom: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .conteudo-secundario-paragrafo {
     
-    font-family: 'Sarala', sans-serif;
+    font-family: Helvetica;
     font-weight: 400;
     font-size: 18px;
-    color: rgb(228, 228, 228);
+    color: #2F4F4F;
 }
 
+/*.conteudo-secundario-paragrafo:hover{
+    position: relative;
+    font-weight: 500;
+    font-size: 20px;
+    transition: 1s alternate;
+    cursor: default;
+}*/
+
+
 .rodape {
-    padding: 32px;
-    border-top: 0.4px solid #F8F8FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2F4F4F;
+    border-top: 0.4px solid #1b9292;
+    padding: 32px
+    
 
 }
 
 .logoR {
     
+    width: 10%;
+    height: 15%;
     display: block;
     margin: 0 auto;
 }
+
+
 
 .copy {
     font-family: 'Righteous', cursive;

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+.card{
+    background-color: #2F4F4F;
+    padding: 6px;
+    width: 250px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #213535;
+    
+   
+}
+
+input[type="text"],input[type="password"],input[type="email"]{
+    border: none;
+    margin-top: 20px;
+    border-radius: 60px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 100%;
+    
+    
+    
+    
+}
+
+
+button[type="submit"]{
+    background-color: #056d6d;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px 0 8px 10px;
+    font-size: 15px;
+    margin-top: 0px;
+    cursor: pointer;
+    
+    
+}
+
+button[type="submit"] strong{
+    margin-right: 13px;
+    
+}
+
+
+.check{
+    flex-flow: column-reverse wrap;
+    padding: 15px;
+    align-items: center;
+    justify-self: end;
+    margin: 10px 0 0 5px;
+    width: 80%;
+    font-size: 13px;
+    padding: 10px;
+    
+}
+
+div .botoes_card{
+    margin-top: 10px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 0 4px 0 #2F4F4F;
+    background-color: whitesmoke;
+}
+
+.botoes_card button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 29px;
+    
+}
+
+.btn_cor{
+    position: absolute;
+    width: 108px;
+    height: 100%;
+    background: linear-gradient(to right ,#3c7a7a,#37a5a5);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+
+
