@@ -188,6 +188,7 @@ div .botoes_card{
     border-radius: 7px;
     padding: 5px;
     margin-top: 70px;
+    justify-content: center;
 }
 
 .pagar_pix{
@@ -198,6 +199,7 @@ div .botoes_card{
 
 .apontar_camera{
     text-align: center;
+    text-decoration: underline;
 }
 
 
