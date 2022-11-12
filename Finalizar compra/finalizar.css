@@ -31,6 +31,7 @@ body{
     overflow: hidden;
     border-radius: 5px;
     box-shadow: 0px 0px 2px 0px #213535;
+    border: 0.4px solid #056d6d;
     
    
 }
@@ -177,5 +178,31 @@ div .botoes_card{
     border-radius: 5px;
     transition: .5s;
 }
+
+/*------------------------PIX-------------------------*/
+
+.QRCode{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #2FB2A4 ;
+    border-radius: 7px;
+    padding: 5px;
+    margin-top: 70px;
+}
+
+.pagar_pix{
+    color: #2FB2A4;
+    text-align: center;
+    padding: 5px;
+}
+
+.apontar_camera{
+    text-align: center;
+}
+
+
+
+
+
 
 

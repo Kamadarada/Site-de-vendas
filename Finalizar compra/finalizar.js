@@ -36,4 +36,5 @@ document.querySelector('#card_pix')
         }
     }
 
+
     
