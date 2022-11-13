@@ -73,11 +73,56 @@ body {
 .produtos{
     padding: 5%;
     margin-top: 0px;
+    margin-right: 100px;
 }
 
 .produto{
     width: 15%;
     height: 20%;
+}
+
+
+.titulo-ps4{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.titulo-oferta{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+    color: #2F4F4F;
+    border: 0.4px solid #2F4F4F;
+    padding: 25px;
+
+}
+
+
+.titulo-razer{
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+.titulo-volante{
+    margin-left: 200px;
+    margin-top: 1%;
+}
+
+
+#ps4{
+    width: 120%;
+    height: 135%;
+    margin-top: 70px;
+}
+
+#razer{
+    width: 160%;
+    height: 175%;
+}
+
+#volante{
+    width: 165%;
+    height: 175%;
 }
 
 
@@ -89,7 +134,6 @@ body {
     background-color: #2F4F4F;
     border-top: 0.4px solid #1b9292;
     padding: 32px;
-    margin-top: 40px;
+    margin-top: 50px;
 
 }
-
