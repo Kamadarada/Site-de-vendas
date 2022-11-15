@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Helvetica;
+}
+
+body {
+    font-size: 100%;
+    background-color: whitesmoke;
+    font-family: 'Freehand', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.cabecalho {
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #2F4F4F;
+        border-bottom: 0.4px solid #1b9292;
+        
+        
+}
+
+.cabecalho a{
+    color: black;
+}
+
+.cabecalho a:hover{
+    color: whitesmoke;
+    cursor: pointer;
+   
+    
+}
+
+
+.cabecalho-menu {
+   display: flex;
+   gap: 100px;
+   
+}
+
+.cabecalho-menu-item {
+
+    font-family: Helvetica;
+    color: #2F4F4F;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+
+.cabecalho-imagem{
+    width: 145px;
+    height: 135px;
+}
+
+
+
+.titulo-oferta{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+    color: #2F4F4F;
+    border: 0.4px solid #2F4F4F;
+    padding: 25px;
+
+}
+
+
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produtos{
+    padding: 5%;
+    margin-top: 0px;
+}
+
+
+
+.titulo-produto{
+    text-align: center;
+    font-size: 25px;
+}
+
+.titulo-produto:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.valor-oferta{
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2F4F4F;
+    border-top: 0.4px solid #1b9292;
+    padding: 32px;
+    margin-top: 40px;
+
+}
+
+
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+     
+   }
+
+    .card{
+        background-color: #2F4F4F;
+        padding: 6px;
+        width: 250px;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 0px #213535;
+        
+    
+    }
+
+    input[type="text"],input[type="password"],input[type="email"]{
+        border: 0.4px solid #056d6d;
+        margin-top: 20px;
+        border-radius: 60px;
+        padding: 8px 0 8px 35px;
+        outline: none;  
+        width: 100%;
+        
+        
+        
+        
+    }
+
+
+    button[type="submit"]{
+        background-color: #056d6d;
+        color: white;
+        border-radius: 30px;
+        width: 100%;
+        border: none;
+        outline: none;
+        padding: 5px 0 8px 10px;
+        font-size: 15px;
+        margin-top: 0px;
+        cursor: pointer;
+        
+        
+    }
+
+    button[type="submit"] strong{
+        margin-right: 13px;
+        
+    }
+
+
+
+
+
+    .check{
+        flex-flow: column-reverse wrap;
+        padding: 15px;
+        align-items: center;
+        justify-self: end;
+        margin: 10px 0 0 5px;
+        width: 80%;
+        font-size: 13px;
+        padding: 10px;
+        
+    }
+
+    div .botoes_card{
+        margin-top: 10px;
+        position: relative;
+        border-radius: 30px;
+        box-shadow: 0 0 4px 0 #2F4F4F;
+        background-color: whitesmoke;
+    }
+
+    .botoes_card button{
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        position: relative;
+        padding: 10px 29px;
+        
+    }
+
+    .btn_cor{
+        position: absolute;
+        width: 108px;
+        height: 100%;
+        background: linear-gradient(to right ,#3c7a7a,#37a5a5);
+        border-radius: 30px;
+        transition: .5s;
+    }
+  .modal:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+
+  .modal > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 20px;
+    background: #fff;
+  }
+
+
+  .fechar {
+    position: absolute;
+    width: 30px;
+    right: -15px;
+    top: -20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 45px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
+    margin-right: 45px;
+  }
+
+
+  
