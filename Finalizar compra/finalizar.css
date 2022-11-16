@@ -120,9 +120,8 @@ body{
 
 
 
-.btn-finalizar{
+.btn-finalizar {
     background-color: #056d6d;
-    color: white;
     border-radius: 5px;
     width: 70%;
     height: 50px;
@@ -132,11 +131,18 @@ body{
     font-size: 15px;
     margin-top: 70px;
     margin-left: 70px;
+    text-decoration: none;
+}
+
+.btn-finalizar a{
+    text-decoration: none;
+    color: white;
 }
 
 .btn-finalizar:hover{
     cursor: pointer;
     background-color: #074646;
+
 }
 
 
