@@ -82,8 +82,25 @@ body {
 }
 
 .produtos{
-    padding: 5%;
-    margin-top: 0px;
+    padding: 0;
+    margin-top: 100px;
+}
+
+.produtor{  
+    margin-top: -40px;
+}
+
+.titulo-produtor{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+
+.titulo-produtor:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 
@@ -93,11 +110,22 @@ body {
     font-size: 25px;
 }
 
+
+.valor-ofertar{
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    padding: 5px;
+}
+
+
 .titulo-produto:hover{
     color: red;
     text-decoration: underline;
     cursor: pointer;
 }
+
+
 
 .valor-oferta{
     text-align: center;
@@ -115,7 +143,7 @@ body {
     background-color: #2F4F4F;
     border-top: 0.4px solid #1b9292;
     padding: 32px;
-    margin-top: 40px;
+    margin-top: 150px;
 
 }
 
