@@ -87,6 +87,12 @@ body {
     margin-top: 30px;
 }
 
+.titulo-ps4:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .titulo-oferta{
     text-align: center;
     margin-top: 20px;
@@ -103,10 +109,23 @@ body {
     margin-top: 10px;
 }
 
+.titulo-razer:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .titulo-volante{
     margin-left: 200px;
     margin-top: 1%;
 }
+
+.titulo-volante:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 
 #ps4{
@@ -115,10 +134,15 @@ body {
     margin-top: 70px;
 }
 
+
+
+
 #razer{
     width: 160%;
     height: 175%;
 }
+
+
 
 #volante{
     width: 165%;
