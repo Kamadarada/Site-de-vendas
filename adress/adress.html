@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar compra</title>
+
+    <link rel="stylesheet" href="adress.css">
+    
+</head>
+<body>
+
+
+
+
+    
+    <div class="card">
+        <h2 class="formas_pagamento">Forma de envio</h2>
+        <div class="botoes_card">
+            <div class="btn_cor"></div>
+            <button id="card_cartao" onclick="activeTab('cartao')"><strong>Sedex</strong></button>
+            <button  id="card_pix" onclick="activeTab('pix')"><strong>Retirada</strong></button>
+        </div>
+        <form id="cartao">
+
+            <img  class="bandeira" src="MicrosoftTeams-image.png" alt="bandeirascartao">
+            
+            <div class="inf-pagamento">
+                <input type="text" class="name" placeholder="Bairro "required />
+                <input type="text" class="last-name" placeholder="Rua" required />
+                <input type="number" class="num-cartao" placeholder="CEP" required/>
+                <input type="number" class="CVC" placeholder="Numero" required/>
+                <input type="text" class="validade" placeholder="Cidade" required/>
+            </div>
+            
+           <button class="btn-finalizar" ><a href="../Finalizar compra/finalizar.html">Continuar</a></button>
+            
+            
+        </form>
+
+        <form id="pix">
+            <h1 class="pagar_pix">Retirada na loja!</h1>
+            <h4 class="apontar_camera">Venha ao nosso endereco e apresente comprovante de compra para retirada de produto</h4>
+
+            <button class="btn-retirada" ><a href="../Finalizar compra/finalizar.html">Continuar</a></button>
+
+        </form>
+    
+
+    </div>
+
+
+    <script src="adress.js">
+
+        
+    </script>
+
+   
+  
+
+    
+</body>
+</html>

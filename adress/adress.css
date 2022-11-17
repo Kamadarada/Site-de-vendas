@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+.card{
+    background-color: whitesmoke;
+    padding: 6px;
+    width: 570px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px #213535;
+    border: 0.4px solid #056d6d;
+    
+   
+}
+
+
+.inf-pagamento{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bandeira {
+    width: 40%;
+    height: 20%;
+    padding: 5px;
+    margin-left: 170px;
+}
+
+.name{
+    border: 0.4px solid grey;
+    margin-top: 20px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 40%;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+
+
+}
+
+.last-name{
+    border: 0.4px solid grey;
+    margin-top: 20px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 55%;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+  
+}
+
+.num-cartao{
+    border: 0.4px solid grey;
+    margin-top: 20px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 70%;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+.CVC{
+    border: 0.4px solid grey;
+    margin-top: 20px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 15%;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.validade{
+    border: 0.4px solid grey;
+    margin-top: 20px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 25%;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 400px;
+    
+}
+
+
+
+.btn-finalizar {
+    background-color: #056d6d;
+    border-radius: 5px;
+    width: 70%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 5px 0 8px 10px;
+    font-size: 15px;
+    margin-top: 70px;
+    margin-left: 75px;
+    text-decoration: none;
+}
+
+.btn-finalizar a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-finalizar:hover{
+    cursor: pointer;
+    background-color: #074646;
+
+}
+
+.btn-retirada{
+    background-color: #056d6d;
+    border-radius: 5px;
+    width: 70%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 5px 0 8px 10px;
+    font-size: 15px;
+    margin-top: 148px;
+    margin-left: 75px;
+    text-decoration: none;
+}
+
+.btn-retirada a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-retirada:hover{
+    cursor: pointer;
+    background-color: #074646;
+}
+
+
+
+.check{
+    flex-flow: column-reverse wrap;
+    padding: 15px;
+    align-items: center;
+    justify-self: end;
+    margin: 10px 0 0 5px;
+    width: 80%;
+    font-size: 13px;
+    padding: 10px;
+    
+}
+
+div .botoes_card{
+    margin-top: 10px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 0 #2F4F4F;
+    background-color: whitesmoke;
+}
+
+.botoes_card button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 29px;
+    
+}
+
+.btn_cor{
+    position: absolute;
+    width: 108px;
+    height: 100%;
+    background: linear-gradient(to right ,#3c7a7a,#37a5a5);
+    border-radius: 5px;
+    transition: .5s;
+}
+
+/*------------------------PIX-------------------------*/
+
+.QRCode{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #2FB2A4 ;
+    border-radius: 7px;
+    padding: 5px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.pagar_pix{
+    color: #2FB2A4;
+    text-align: center;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+.apontar_camera{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
