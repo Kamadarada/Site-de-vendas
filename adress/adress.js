@@ -11,7 +11,7 @@ document.querySelector('#card_cartao')
 
 document.querySelector('#card_pix')
     .addEventListener('click', () => {
-        btn_cor.style.left = "105px"
+        btn_cor.style.left = "107px"
         
             
         

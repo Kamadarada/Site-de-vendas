@@ -73,5 +73,5 @@ document.querySelector('#card_cadastro')
 
         }
         alert('Cadastro concluido');
-        window.location = './index.html';
+        window.location = '../index.html';
     }
